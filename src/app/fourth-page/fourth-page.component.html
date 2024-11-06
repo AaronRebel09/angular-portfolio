@@ -1,69 +1,5 @@
-<!--<div class="container center" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">-->
-  <!--<mat-card class="card-picture">-->
-    <!--<mat-card-header>-->
-      <!--<div mat-card-avatar class="example-header-image"></div>-->
-      <!--<mat-card-title>Aaron Tellez</mat-card-title>-->
-      <!--<mat-card-subtitle>Software Developer</mat-card-subtitle>-->
-    <!--</mat-card-header>-->
-    <!--<img mat-card-image class="aron" src="../../assets/aron/aron_selfie.jpg" alt="Photo of aron">-->
-    <!--<mat-card-content>-->
-      <!--<p>-->
-        <!--Hello World! I'm Developer contact me!.-->
-      <!--</p>-->
-    <!--</mat-card-content>-->
-    <!--<mat-card-actions>-->
-      <!--<button mat-button>-->
-        <!--<mat-icon aria-label="Side nav toggle icon">favorite_board</mat-icon>-->
-        <!--LIKE</button>-->
-      <!--<button mat-button>-->
-        <!--<mat-icon aria-label="Side nav toggle icon">contact_mail</mat-icon>-->
-        <!--<a href="https://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&to=arontellezm%40gmail.com&su=SUBJECTHERE&body=LINE1%0aLINE2">COMPOSE</a>-->
-      <!--</button>-->
-    <!--</mat-card-actions>-->
-  <!--</mat-card>-->
-<!--</div>-->
-
-<!--<img src="../../assets/Blogger.svg" class="center imageBlogger">-->
-
-<!--<div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">-->
-<!--  <mat-card class="card-picture" *ngFor="let picture of imagesLink">-->
-<!--    <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">-->
-<!--      <span fxFlex="100%">{{picture.title}}</span>-->
-<!--    </mat-card-title>-->
-<!--    <img mat-card-image [src]="picture.link">-->
-<!--  </mat-card>-->
-<!--</div>-->
-
-<!--<div class="contactainer container center">-->
-
-<!--  <mat-form-field appearance="fill">-->
-<!--    <mat-label>Subject</mat-label>-->
-<!--    <input matInput placeholder="Placeholder">-->
-<!--    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>-->
-<!--    <mat-hint>Hint</mat-hint>-->
-<!--  </mat-form-field>-->
-
-<!--  <mat-form-field appearance="fill">-->
-<!--    <mat-label>Email</mat-label>-->
-<!--    <input matInput placeholder="Placeholder">-->
-<!--    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>-->
-<!--    <mat-hint>Hint</mat-hint>-->
-<!--  </mat-form-field>-->
-
-<!--  <mat-form-field appearance="outline">-->
-<!--    <mat-label>Outline form field</mat-label>-->
-<!--    <input matInput placeholder="Placeholder">-->
-<!--    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>-->
-<!--    <mat-hint>Hint</mat-hint>-->
-<!--  </mat-form-field>-->
-
-<!--  <button mat-raised-button color="accent">Send</button>-->
-
-
-<!--</div>-->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
 <div class="container"
      fxLayout
@@ -78,7 +14,7 @@
     <p>Hola, soy Aarón Téllez, Consultor y Desarollador en varios lenguages de programación para distintas compañias.</p>
     <p>Ayudo a potenciar los negocios de marcas y profesionales a través de la estrategia y construcción de proyectos.</p>
   </div>
-  <div class="item item-1" fxFlex fxFlexOrder="2"><img class="responsive" src="/assets/unam.png" style="float:right"
+  <div class="item item-1" fxFlex fxFlexOrder="2"><img class="responsive" ngSrc="../assets/unam.png" style="float:right"
                                                        alt="" width="240" height="320" sizes="(max-width: 240) 100vw, 240px">
   </div>
   <div class="item item-0" fxFlex fxFlexOrder="3"></div>
@@ -100,10 +36,10 @@
     <p>Aprendí java, angular, oracle, mongo con ayuda de compañeros de trabajo y otros temas de forma auto-didacta.</p>
     <p>Luego me pasé a crear apis rest, soap .</p>
   </div>
-    <div class="item item-1" fxFlex fxFlexOrder="2">
-      <img class="responsive" src="/assets/aron/aronCapgemini.png" style="float:right"
-           alt="" width="240" height="320" sizes="(max-width: 240) 100vw, 240px">
-    </div>
+  <div class="item item-1" fxFlex fxFlexOrder="2">
+    <img class="responsive" ngSrc="../assets/aron/aronCapgemini.png" style="float:right"
+         alt="" width="240" height="320" sizes="(max-width: 240) 100vw, 240px">
+  </div>
   <div class="item item-0" fxFlex fxFlexOrder="3"></div>
 </div>
 
@@ -114,10 +50,10 @@
      fxLayoutGap="10px"
      fxLayoutGap.xs="0">
   <div class="item item-0" fxFlex fxFlexOrder="0"></div>
-  <div class="item item-1" fxFlex fxFlexOrder="1"><img class="bbva" src="/assets/BBVA_2019.svg" ></div>
-  <div class="item item-2" fxFlex fxFlexOrder="2"><img class="capgemini" src="/assets/capgemini.svg" ></div>
+  <div class="item item-1" fxFlex fxFlexOrder="1"><img class="bbva" ngSrc="../assets/BBVA_2019.svg" fill></div>
+  <div class="item item-2" fxFlex fxFlexOrder="2"><img class="capgemini" ngSrc="../assets/capgemini.svg" fill></div>
   <div class="item item-3" fxFlex fxFlexOrder="3"></div>
-  <div class="item item-4" fxFlex fxFlexOrder="4"><img class="citi" src="/assets/citi.jpg" ></div>
+  <div class="item item-4" fxFlex fxFlexOrder="4"><img class="citi" ngSrc="../assets/citi.jpg" fill></div>
 </div>
 
 <div class="container"
@@ -128,7 +64,7 @@
      fxLayoutGap.xs="0">
   <div class="item item-0" fxFlex fxFlexOrder="0"></div>
   <div class="item item-0" fxFlex fxFlexOrder="1">
-    <section class="section html-content has-background-light " id=""><div class="columns wrapper"><div class="column"><div class="columns is-vcentered">
+    <section class="section html-content has-background-light " ><div class="columns wrapper"><div class="column"><div class="columns is-vcentered">
       <div class="column is-6"></div>
       <div class="column is-5 is-offset-1-desktop">
         <h2 class="has-text-left">Libros que recomiendo leer si estudias o trabajas en sistemas.</h2>
@@ -136,12 +72,13 @@
         <p>la estancia azul jeffery deaver.</p>
         <p>El fin de la eternidad, Isaac Asimov.</p>
         <p>El huevo del Cuco, Clifford Stoll.</p>
-        <p><a href="https://www.amazon.com.mx/Estudio-Escarlata-Arthur-Conan-Doyle/dp/8446043300/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1603592591&sr=8-9" target="_blank" rel="noopener"><img src="https://vilmanunez.com/wp-content/uploads/2018/11/disponible-amzn-300x90.png" alt="Comprar en Amazon" width="300" height="90" class="alignleft size-medium wp-image-22542" srcset="https://vilmanunez.com/wp-content/uploads/2018/11/disponible-amzn-300x90.png 300w, https://vilmanunez.com/wp-content/uploads/2018/11/disponible-amzn.png 418w" sizes="(max-width: 300px) 100vw, 300px"></a></p>
+        <p><a href="https://www.amazon.com.mx/Estudio-Escarlata-Arthur-Conan-Doyle/dp/8446043300/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1603592591&sr=8-9" target="_blank" rel="noopener">
+          <img ngSrc="https://vilmanunez.com/wp-content/uploads/2018/11/disponible-amzn-300x90.png" alt="Comprar en Amazon" width="300" height="90" class="alignleft size-medium wp-image-22542" srcset="https://vilmanunez.com/wp-content/uploads/2018/11/disponible-amzn-300x90.png 300w, https://vilmanunez.com/wp-content/uploads/2018/11/disponible-amzn.png 418w" sizes="(max-width: 300px) 100vw, 300px"></a></p>
       </div>
     </div>
     </div></div></section>
   </div>
-  <div class="item item-1" fxFlex fxFlexOrder="2"><img src="/assets/computers.svg" alt="Libros" width="400" height="332" >
+  <div class="item item-1" fxFlex fxFlexOrder="2"><img ngSrc='../assets/computers.svg' alt="Libros" width="400" height="332" >
   </div>
   <div class="item item-0" fxFlex fxFlexOrder="3"></div>
 </div>
@@ -154,16 +91,16 @@
      fxLayoutGap.xs="0">
   <div class="item item-0" fxFlex fxFlexOrder="0"></div>
   <div class="item item-0" fxFlex fxFlexOrder="1">
-    <section class="section html-content has-background-shadow " id=""><div class="columns wrapper"><div class="column"><h2>Mi marca personal y mis mayores hitos</h2>
+    <section class="section html-content has-background-shadow " ><div class="columns wrapper"><div class="column"><h2>Mi marca personal y mis mayores hitos</h2>
       <p>siempre en cada lugar al que voy intento dar lo mejor de mi.</p>
-      <section class="section html-content has-background-transparent " id=""><div class="columns wrapper"><div class="column"><h2>Mi historia</h2>
+      <section class="section html-content has-background-transparent " ><div class="columns wrapper"><div class="column"><h2>Mi historia</h2>
         <p>Nací el 01 de julio del 1991 en ciudad Madero Tamaulipas.</p>
         <p>He vivido en 3 estados mexicanos distintos (Tamaulipas, Edo Mexico y CDMX) y aunque pocos lo saben, amo el mar.</p>
       </div></div></section>
     </div></div>
     </section>
   </div>
-  <div class="item item-1" fxFlex fxFlexOrder="2"><img src="/assets/aron/zelda.jpg" alt="Libros" width="400" height="332" >
+  <div class="item item-1" fxFlex fxFlexOrder="2"><img ngSrc="../assets/aron/zelda.jpg" alt="Libros" width="400" height="332" >
   </div>
   <div class="item item-0" fxFlex fxFlexOrder="3"></div>
 </div>
@@ -237,8 +174,3 @@
   <div class="item item-6" fxFlex="15%"></div>
 
 </div>
-
-
-
-
-

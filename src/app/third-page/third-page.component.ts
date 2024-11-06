@@ -1,14 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import {FlexLayoutModule} from '@ngbracket/ngx-layout';
 
 @Component({
   selector: 'app-third-page',
+  standalone: true,
+  imports: [
+    FlexLayoutModule
+  ],
   templateUrl: './third-page.component.html',
-  styleUrls: ['./third-page.component.css']
+  styleUrl: './third-page.component.scss'
 })
-export class ThirdPageComponent implements OnInit {
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class ThirdPageComponent {
 
 }

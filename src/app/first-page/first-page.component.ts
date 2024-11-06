@@ -1,14 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import {FlexLayoutModule} from '@ngbracket/ngx-layout';
 
 @Component({
   selector: 'app-first-page',
+  standalone: true,
+  imports: [
+    FlexLayoutModule
+  ],
   templateUrl: './first-page.component.html',
-  styleUrls: ['./first-page.component.css']
+  styleUrl: './first-page.component.scss'
 })
-export class FirstPageComponent implements OnInit {
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class FirstPageComponent {
 
 }
